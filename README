@@ -39,7 +39,7 @@ Zicroram runs as an administrative tool on your system, so root access through '
 
 It's advisable not to run this program under Windows' WSL, since last time 
 I checked WSL didn't support real TMPFS Filesystem and instead uses the Hard Drive as TMPFS 
-device instead of the Ram Memory making the program developed in here pointless.
+device instead of the Ram Memory thus making the program developed in here pointless.
 
 --INSTALLATION:
 Installation can be initialized through it's commandline interface(CLI): "./zicroram --install-wizard"
