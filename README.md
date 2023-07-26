@@ -8,16 +8,15 @@ Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following func
 4 - Backing up data from RAM Into disk.(--mmbackup and --mtbackup)
 5 - Copying programs on system bootup(--boots or --bootsc)
 
-It achieves this by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a single command,
-like for example: "zicroram --add ~/Pictures ~/Music ~/Downloads"
+It achieves this by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a single command, like for example:
 
-After this the program will symlink the original data to the TMPFS mounted device allowing the user to use his data as if it were on the disk.
+"zicroram --add ~/Pictures ~/Music ~/Downloads"
 
-Furtherover, you don't have to worry about things like system crashes and power blackouts, once your system reboots, 
-data can be easily restored using "zicroram --restore" which will put original files back in place where the symlinks were created.
+After this the program will symlink the real path where the data was located to the newly created TMPFS mounted device allowing the user to call on his data as if it were still on the disk. The real data will be renamed keeping real data safe from power blackouts and system crashes until either a --remove command or --restore command is used.
 
-Many more commands can be found by typing: "zicroram --help" (after installation) or "./zicroram --help" (before installation).
-the --help command will list and thoroughly explain each of the commands.
+Furtherover, you don't have to worry about things like system crashes and power blackouts, once your system reboots, data can be easily restored using "zicroram --restore" which will put original files back in place where the symlinks were created.
+
+Many more commands can be found by typing: "zicroram --help" (after installation) or "./zicroram --help" (before installation); the --help command will list and thoroughly explain each of the commands.
 
 ### USE LICENSE:
 
@@ -33,15 +32,15 @@ If you don't agree with the USE LICENSE of this system, do not use this system.
 ### OPERATING SYSTEM SUPPORT:
 
 Zicroram should work on all GNU Linux Distributions out-of-box as long as they support:
-1 - GLIBC 2.34 
+
+1 - GLIBC 2.34
+
 2 - TMPFS Enabled kernel.
 
 Zicroram runs as an administrative tool on your system, so root access through 'sudo' is required.
 'doas' still not supported in the current version of this program.
 
-It's advisable not to run this program under Windows' WSL, since last time 
-I checked WSL didn't support real TMPFS Filesystem and instead uses the Hard Drive as TMPFS 
-device instead of the Ram Memory thus making the program developed in here pointless.
+It's advisable not to run this program under Windows' WSL; last time I checked WSL didn't support real TMPFS Filesystem and instead uses the Hard Drive as TMPFS device instead of the Ram Memory thus making the program developed in here pointless.
 
 ### INSTALLATION:
 
