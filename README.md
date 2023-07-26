@@ -8,7 +8,7 @@ Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following func
 
 2 - Removing Data from RAM(--remove-all or --remove)
 
-3 - Restoring Data from DISK Back into RAM and Vice-versa(--restore)
+3 - Restoring Data from DISK Back into RAM (--restore)
 
 4 - Backing up data from RAM Into disk.(--mmbackup and --mtbackup)
 
