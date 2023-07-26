@@ -20,9 +20,9 @@ The program works by creating and mounting a TMPFS device called /zicroram/ and 
 
 'zicroram --add ~/Pictures ~/Music ~/Downloads'
 
-After this the program will symlink the real path where the data was located to the newly created TMPFS mounted device allowing the user to call on his data as if it were still on the disk. The real data will be renamed keeping real data safe from power blackouts and system crashes until either a --remove command or --restore command is used.
+After this the program will symlink the real path where the data was located to the newly created TMPFS mounted device allowing the user to call on his data as if it were still on the disk. The real data will be renamed to keep it safe from power blackouts and system crashes until either a --remove or --restore command is used.
 
-Furtherover, you don't have to worry about things like system crashes and power blackouts, once your system reboots, data can be easily restored using "zicroram --restore" which will put original files back in place where the symlinks were created.
+In case of system crash or power blackout, once your system reboots, data can be easily restored to real data path using "zicroram --restore" which will put the original files back in place where the symlinks were created.
 
 Many more commands can be found by typing: "zicroram --help" (after installation) or "./zicroram --help" (before installation); the --help command will list and thoroughly explain each of the commands.
 
