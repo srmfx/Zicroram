@@ -1,6 +1,7 @@
 # Zicroram
 Official Shareware Binary Repository for Zicroram
 
+### ABOUT:
 Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following functionalities:
 
 1 - Adding(Synchronously and Assynchronously) Data to RAM(--add or --addc)
@@ -14,7 +15,7 @@ Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following func
 5 - Copying programs on system bootup(--boots or --bootsc)
 
 
-
+### HOW IT WORKS:
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
 
 'zicroram --add ~/Pictures ~/Music ~/Downloads'
