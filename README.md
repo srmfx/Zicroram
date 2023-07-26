@@ -19,7 +19,7 @@ data can be easily restored using "zicroram --restore" which will put original f
 Many more commands can be found by typing: "zicroram --help" (after installation) or "./zicroram --help" (before installation).
 the --help command will list and thoroughly explain each of the commands.
 
-## ABOUT USE LICENSE
+### USE LICENSE:
 
 Upon program installation using "zicroram --install-wizard" the user must agree with the displayed use license;
 if the user doesn't agree with one or more terms the installation will be cancelled and the user should 
@@ -30,7 +30,8 @@ since RAM Storage isn't a persistent type of storage, important data may be perm
 
 If you don't agree with the USE LICENSE of this system, do not use this system.
 
---OPERATING SYSTEM SUPPORT:
+### OPERATING SYSTEM SUPPORT:
+
 Zicroram should work on all GNU Linux Distributions out-of-box as long as they support:
 1 - GLIBC 2.34 
 2 - TMPFS Enabled kernel.
@@ -42,17 +43,20 @@ It's advisable not to run this program under Windows' WSL, since last time
 I checked WSL didn't support real TMPFS Filesystem and instead uses the Hard Drive as TMPFS 
 device instead of the Ram Memory thus making the program developed in here pointless.
 
---INSTALLATION:
+### INSTALLATION:
+
 Installation can be initialized through it's commandline interface(CLI): "./zicroram --install-wizard"
 The program will automatically request root authorization for the user as necessary.
 
---AUTHOR:
+### AUTHOR:
+
 The program in here was sole developed by a single dev,
 get in contact with him on the email provided in the binary release of this program and also the one in here:
 
 Author: Sebastião Ribeiro Monteiro Filho
 Email: srmfsrmf@hotmail.com
 
---TROUBLESHOOTING:
+### TROUBLESHOOTING:
+
 If you've found a bug, you're welcome to open an issue and report it in this github.
 DO NOT SEND bugs or problems over email, they'll be automatically ignored and treated as junk.
