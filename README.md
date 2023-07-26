@@ -2,10 +2,15 @@
 Official Shareware Binary Repository for Zicroram
 
 Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following functionalities:
+
 1 - Adding(Synchronously and Assynchronously) Data to RAM(--add or --addc)
+
 2 - Removing Data from RAM(--remove-all or --remove)
+
 3 - Restoring Data from DISK Back into RAM and Vice-versa(--restore)
+
 4 - Backing up data from RAM Into disk.(--mmbackup and --mtbackup)
+
 5 - Copying programs on system bootup(--boots or --bootsc)
 
 It achieves this by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a single command, like for example:
