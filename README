@@ -19,7 +19,7 @@ data can be easily restored using "zicroram --restore" which will put original f
 Many more commands can be found by typing: "zicroram --help" (after installation) or "./zicroram --help" (before installation).
 the --help command will list and thoroughly explain each of the commands.
 
-[USE LICENSE](./about_use_license.md)
+[USE LICENSE](about_use_license.md)
 
 Upon program installation using "zicroram --install-wizard" the user must agree with the displayed use license;
 if the user doesn't agree with one or more terms the installation will be cancelled and the user should 
