@@ -53,8 +53,8 @@ The program will automatically request root authorization for the user as necess
 The program in here was sole developed by a single dev,
 get in contact with him on the email provided in the binary release of this program and also the one in here:
 
-Author: Sebastião Ribeiro Monteiro Filho
-Email: srmfsrmf@hotmail.com
+###### Author: Sebastião Ribeiro Monteiro Filho
+###### Email: srmfsrmf@hotmail.com
 
 ### TROUBLESHOOTING:
 
