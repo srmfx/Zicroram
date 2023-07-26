@@ -13,6 +13,8 @@ Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following func
 
 5 - Copying programs on system bootup(--boots or --bootsc)
 
+
+
 It achieves this by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a single command, like for example:
 
 "zicroram --add ~/Pictures ~/Music ~/Downloads"
