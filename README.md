@@ -15,9 +15,9 @@ Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following func
 
 
 
-It achieves this by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a single command, like for example:
+The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
 
-"zicroram --add ~/Pictures ~/Music ~/Downloads"
+'zicroram --add ~/Pictures ~/Music ~/Downloads'
 
 After this the program will symlink the real path where the data was located to the newly created TMPFS mounted device allowing the user to call on his data as if it were still on the disk. The real data will be renamed keeping real data safe from power blackouts and system crashes until either a --remove command or --restore command is used.
 
@@ -44,7 +44,8 @@ Zicroram should work on all GNU Linux Distributions out-of-box as long as they s
 
 2 - TMPFS Enabled kernel.
 
-Zicroram runs as an administrative tool on your system, so root access through 'sudo' is required.
+Zicroram runs as an administrative tool on your system, so root access through 'sudo' is required. 
+
 'doas' still not supported in the current version of this program.
 
 It's advisable not to run this program under Windows' WSL; last time I checked WSL didn't support real TMPFS Filesystem and instead uses the Hard Drive as TMPFS device instead of the Ram Memory thus making the program developed in here pointless.
@@ -52,11 +53,13 @@ It's advisable not to run this program under Windows' WSL; last time I checked W
 ### INSTALLATION:
 
 Installation can be initialized through it's commandline interface(CLI): "./zicroram --install-wizard"
+
 The program will automatically request root authorization for the user as necessary.
 
 ### AUTHOR:
 
 The program in here was sole developed by a single dev,
+
 get in contact with him on the email provided in the binary release of this program and also the one in here:
 
 ###### Author: Sebastião Ribeiro Monteiro Filho
