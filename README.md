@@ -66,7 +66,13 @@ get in contact with him on the email provided in the binary release of this prog
 ###### Author: Sebastião Ribeiro Monteiro Filho
 ###### Email: srmfsrmf@hotmail.com
 
-### TROUBLESHOOTING:
+### BUGS:
 
 If you've found a bug, you're welcome to open an issue and report it in this github.
 DO NOT SEND bugs or problems over email, they'll be automatically ignored and treated as junk.
+
+### TROUBLESHOOTING:
+
+The binary program offers a quickhand manual on troubleshooting: ./zicroram --troubleshooting
+
+This is important as it describes most common issues users may have to deal with and how to either solve or avoid those issues.
