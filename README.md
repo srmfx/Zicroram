@@ -73,6 +73,6 @@ DO NOT SEND bugs or problems over email, they'll be automatically ignored and tr
 
 ### TROUBLESHOOTING:
 
-The binary program offers a quickhand manual on troubleshooting: ./zicroram --troubleshooting
+The binary program offers a quickhand page on troubleshooting: ./zicroram --troubleshooting
 
 This is important as it describes most common issues users may have to deal with and how to either solve or avoid those issues.
