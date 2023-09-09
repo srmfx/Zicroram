@@ -20,7 +20,7 @@ Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following func
 
 The program also includes a man page, you can read it once the program is installed on the system: 
 
-    $man zicroram
+    $ man zicroram
 
 ### HOW IT WORKS:
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
@@ -29,9 +29,15 @@ The program works by creating and mounting a TMPFS device called /zicroram/ and 
 
 After this the program will symlink the real path where the data was located to the newly created TMPFS mounted device allowing the user to call on his data as if it were still on the disk. The real data will be renamed to keep it safe from power blackouts and system crashes until either a --remove or --restore command is used.
 
-In case of system crash or power blackout, once your system reboots, data can be easily restored to real data path using "zicroram --restore" which will put the original files back in place where the symlinks were created.
+In case of system crash or power blackout, once your system reboots, data can be easily restored to real data path using
 
-Many more commands can be found by typing: "zicroram --help" (after installation) or "./zicroram --help" (before installation); the --help command will list and thoroughly explain each of the commands.
+    $ zicroram --restore" 
+The above command will put the original files back in place where the symlinks were created.
+
+Many more commands can be found by typing: 
+
+    $ zicroram --help    
+The --help command will list and thoroughly explain each of the commands.
 
 ### USE LICENSE:
 
