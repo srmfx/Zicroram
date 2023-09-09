@@ -25,7 +25,7 @@ The program also includes a man page, you can read it once the program is instal
 ### HOW IT WORKS:
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
 
-    $zicroram --add ~/Pictures ~/Music ~/Downloads
+    $ zicroram --add ~/Pictures ~/Music ~/Downloads
 
 After this the program will symlink the real path where the data was located to the newly created TMPFS mounted device allowing the user to call on his data as if it were still on the disk. The real data will be renamed to keep it safe from power blackouts and system crashes until either a --remove or --restore command is used.
 
@@ -62,7 +62,7 @@ It's advisable not to run this program under Windows' WSL; last time I checked W
 
 Installation can be initialized through it's commandline interface(CLI): 
 
-    $./zicroram --install-wizard
+    $ ./zicroram --install-wizard
 
 The program will automatically request root authorization for the user as necessary.
 
@@ -82,8 +82,8 @@ DO NOT SEND bugs or problems over email, they'll be automatically ignored and tr
 
 ### TROUBLESHOOTING:
 
-The binary program offers a quickhand page on troubleshooting:
+The binary program offers a quickhand page on troubleshooting that you can read regardless if the program is installed on the system:
 
-    $./zicroram --troubleshoot
+    $ ./zicroram --troubleshoot
 
-This is important as it describes most common issues users may have to deal with and how to either solve or avoid those issues.
+This command is important as it describes most of the common issues users may have to deal with and how to either solve or avoid those problems.
