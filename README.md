@@ -31,7 +31,7 @@ After this the program will symlink the real path where the data was located to 
 
 In case of system crash or power blackout, once your system reboots, data can be easily restored to real data path using
 
-    $ zicroram --restore" 
+    $ zicroram --restore
 The above command will put the original files back in place where the symlinks were created.
 
 Many more commands can be found by typing: 
