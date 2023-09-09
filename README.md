@@ -16,7 +16,7 @@ Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following func
 
 6 - More instructions & commands (--help, --help-setup, --help-program, --help-info)
 
-7 - Troubleshooting (--troubleshooting)
+7 - Troubleshoot (--troubleshoot)
 
 The program also includes a man page, you can read it once the program is installed on the system: 
 
