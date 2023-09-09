@@ -60,7 +60,9 @@ It's advisable not to run this program under Windows' WSL; last time I checked W
 
 ### INSTALLATION:
 
-Installation can be initialized through it's commandline interface(CLI): "./zicroram --install-wizard"
+Installation can be initialized through it's commandline interface(CLI): 
+
+    $./zicroram --install-wizard
 
 The program will automatically request root authorization for the user as necessary.
 
@@ -80,6 +82,8 @@ DO NOT SEND bugs or problems over email, they'll be automatically ignored and tr
 
 ### TROUBLESHOOTING:
 
-The binary program offers a quickhand page on troubleshooting: ./zicroram --troubleshoot
+The binary program offers a quickhand page on troubleshooting:
+
+    ./zicroram --troubleshoot
 
 This is important as it describes most common issues users may have to deal with and how to either solve or avoid those issues.
