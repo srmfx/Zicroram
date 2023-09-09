@@ -10,10 +10,13 @@ Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following func
 
 3 - Restoring Data from DISK Back into RAM (--restore)
 
-4 - Backing up data from RAM Into disk.(--mmbackup and --mtbackup)
+4 - Backing up data from RAM Into disk (--mmbackup and --mtbackup)
 
-5 - Copying programs on system bootup(--boots or --bootsc)
+5 - Copying programs on system bootup (--boots or --bootsc)
 
+6 - More instructions & commands (--help, --help-setup, --help-program, --help-info)
+
+7 - Troubleshooting (--troubleshooting)
 
 ### HOW IT WORKS:
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
