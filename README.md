@@ -4,19 +4,19 @@ Official Shareware Binary Repository for Zicroram
 ### ABOUT:
 Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following functionalities:
 
-1 - Adding(Synchronously and Assynchronously) Data to RAM(--add or --addc)
+1 - Adding(Synchronously and Assynchronously) Data to RAM(**--add** or **--addc**)
 
-2 - Removing Data from RAM(--remove-all or --remove)
+2 - Removing Data from RAM(**--remove-all** or **--remove**)
 
-3 - Restoring Data from DISK Back into RAM (--restore)
+3 - Restoring Data from DISK Back into RAM (**--restore**)
 
-4 - Backing up data from RAM Into disk (--mmbackup and --mtbackup)
+4 - Backing up data from RAM Into disk (**--mmbackup** and **--mtbackup**)
 
-5 - Copying programs on system bootup (--boots or --bootsc)
+5 - Copying programs on system bootup (**--boots** or **--bootsc**)
 
-6 - More instructions & commands (--help, --help-setup, --help-program, --help-info)
+6 - More instructions & commands (**--help**, **--help-setup**, **--help-program**, **--help-info**)
 
-7 - Troubleshoot (--troubleshoot)
+7 - Troubleshoot (**--troubleshoot**)
 
 The program also includes a man page, you can read it once the program is installed on the system: 
 
@@ -41,7 +41,7 @@ The --help command will list and thoroughly explain each of the commands.
 
 ### USE LICENSE:
 
-Upon program installation using "zicroram --install-wizard" the user must agree with the displayed use license;
+Upon program installation using **zicroram --install-wizard** the user must agree with the displayed use license;
 if the user doesn't agree with one or more terms the installation will be cancelled and the user should 
 give up installation of the program at once.
 
@@ -54,9 +54,9 @@ If you don't agree with the USE LICENSE of this system, do not use this system.
 
 Zicroram should work on all GNU Linux Distributions out-of-box as long as they support:
 
-1 - GLIBC 2.34
+**1 - GLIBC 2.34**
 
-2 - TMPFS Enabled kernel.
+**2 - TMPFS Enabled kernel.**
 
 Zicroram runs as an administrative tool on your system, so root access through 'sudo' is required. 
 
