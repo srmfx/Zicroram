@@ -2,7 +2,7 @@
 Official Shareware Binary Repository for Zicroram
 
 ### ABOUT:
-Zicroram is a CLI for the LINUX TMPFS Filesystem that adds up the following functionalities:
+Zicroram is a CLI for the LINUX TMPFS/RAMFS Filesystem that adds up Ramdisk/Ramdrive features:
 
 1 - Adding(Synchronously and Assynchronously) Data to RAM(**--add** or **--addc**)
 
