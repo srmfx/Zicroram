@@ -1,5 +1,28 @@
 # Zicroram
 Official Shareware Binary Repository for Zicroram
+## TOPICS
+[ABOUT](https://github.com/srmfx/Zicroram#ABOUT)
+
+[HOW IT WORKS](https://github.com/srmfx/Zicroram#how-it-works)
+
+[CREATING ZICRORAM FILES](https://github.com/srmfx/Zicroram#creating-zicroram-files)
+
+[RESTORING DATA FROM POWER BLACKOUTS](https://github.com/srmfx/Zicroram#restoring-data-from-power-blackouts-system-crashes-or-freezes)
+
+[ADDING PROGRAM/DATA TO RAM ON SYSTEM STARTUP](https://github.com/srmfx/Zicroram?tab=readme-ov-file#adding-programsdata-to-ram-during-system-startup)
+
+[USE LICENSE](https://github.com/srmfx/Zicroram?tab=readme-ov-file#use-license)
+
+[OPERATING SYSTEM SUPPORT](https://github.com/srmfx/Zicroram?tab=readme-ov-file#operating-system-support)
+
+[INSTALLATION](https://github.com/srmfx/Zicroram?tab=readme-ov-file#installation)
+
+[AUTHOR](https://github.com/srmfx/Zicroram?tab=readme-ov-file#installation)
+
+[BUGS](https://github.com/srmfx/Zicroram?tab=readme-ov-file#bugs)
+
+[TROUBLESHOOTING](https://github.com/srmfx/Zicroram?tab=readme-ov-file#troubleshooting)
+
 
 ## ABOUT:
 Zicroram is a CLI for the LINUX TMPFS/RAMFS Filesystem that adds up Ramdisk/Ramdrive features:
