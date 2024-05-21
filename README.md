@@ -60,7 +60,7 @@ Now you can add all programs using a single command:
 
     $ ./zicroram --add ~/my_programs.zicroram
 
-## ADDING PROGRAMS/DATA TO RAM DURING SYSTEM STARTUP
+## ADDING PROGRAMS/DATA TO RAM DURING SYSTEM STARTUP:
 Adding programs into ram in this specific case can be achieved by adding **'zicroram --boots ..'** inside your .bash_profile( for bash users )
 or .zprofile ( for zsh users ) file:
 
