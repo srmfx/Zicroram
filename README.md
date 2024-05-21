@@ -118,7 +118,7 @@ give up installation of the program at once.
 The sole developer doesn't take any lyability for the mistakes that may arise from using a RamDisk(or RamDrive) software;
 since RAM Storage isn't a persistent type of storage, important data may be permanently lost forever with no means of recover.
 
-If you don't agree with the USE LICENSE of this system, do not use this system.
+If you don't agree with the USE LICENSE of this program, do not use it! You've been warned.
 
 ## OPERATING SYSTEM SUPPORT:
 
