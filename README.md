@@ -61,13 +61,13 @@ Now you can add all programs using a single command:
     $ ./zicroram --add ~/my_programs.zicroram
     
 ## RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES
-With the --restore instruction it's possible to recover previously existing data that is still located on the disk,
-however, changes that might have been made while data was into ram is permanently lost at this point:
+With the --restore instruction it's possible to recover previously existing data that is still located on the disk;
+however, it's important to understand that changes that might have been made while data was into ram is now permanently lost at this point:
 
     $ zicroram --restore
 
 Restore is only possible, because zicroram renames the original data before creating a symlink and copying the desired program(or data) into ram;
-**--restore** will simply remove the symlink(s) then move and rename the original data back to where it originally was.
+the **--restore** instruction will simply remove the symlink(s) that have been created then it'll move and rename the original data back to where it originally was.
 
 because of this, do not forget to use **--mmbackup** or **--mtbackup** if you need to.
 
