@@ -95,7 +95,7 @@ for BASH users:
 The brackets are only meant here so that the user understands this is the contents of a file.*
 
 The **--boots** instruction outputs to screen a copy-to-ram progress and makes the user wait for the whole process to finish,
-however depending on the program and/or how fast your hard drives are, it's possible to bypass this step and avoid all the 'waiting' during system startup; 
+however depending on the program and/or how fast your hard drive is, it's possible to bypass this step and avoid all the 'waiting' during system startup; 
 if such is the case, then use **--bootsc** instead of **--boots** - However, currently it's not possible to check copy progress after bypassing it with such option.
 
 Check the manual after installing for more information on --boots and --bootsc:
