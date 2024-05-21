@@ -7,7 +7,7 @@ Official Shareware Binary Repository for Zicroram
 
 [CREATING ZICRORAM FILES](https://github.com/srmfx/Zicroram#creating-zicroram-files)
 
-[RESTORING DATA FROM POWER BLACKOUTS](https://github.com/srmfx/Zicroram#restoring-data-from-power-blackouts-system-crashes-or-freezes)
+[RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES](https://github.com/srmfx/Zicroram#restoring-data-from-power-blackouts-system-crashes-or-freezes)
 
 [ADDING PROGRAM/DATA TO RAM ON SYSTEM STARTUP](https://github.com/srmfx/Zicroram#adding-programsdata-to-ram-during-system-startup)
 
