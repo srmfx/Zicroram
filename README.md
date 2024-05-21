@@ -39,6 +39,24 @@ Many more commands can be found by typing:
     $ zicroram --help    
 The --help command will list and thoroughly explain each of the commands.
 
+### CREATING .ZICRORAM FILES
+
+A .zicroram file can be created to make it easier adding programs and/or group of programs into ram in such a way the user doesn't have to worry about creating a shell(bash/zsh) script for it.
+
+To do this, simply create a file with an extension called '.zicroram', then make sure each line corresponds to a directory/path on your disk; finally, you can then add as much programs and data(ex.: pictures, songs, etc..) as you want in this single file. example:
+
+    [file: ~/my_programs.zicroram]
+        /usr/share/gimp
+        /usr/share/gvim
+        ~/Music
+        ~/Pictures
+        ~/Documents
+    [/file]
+
+Now you can add all programs using a single command:
+
+    $ ./zicroram --add ~/my_programs.zicroram
+
 ### USE LICENSE:
 
 Upon program installation using **zicroram --install-wizard** the user must agree with the displayed use license;
