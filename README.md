@@ -9,19 +9,19 @@ Official Shareware Binary Repository for Zicroram
 
 [RESTORING DATA FROM POWER BLACKOUTS](https://github.com/srmfx/Zicroram#restoring-data-from-power-blackouts-system-crashes-or-freezes)
 
-[ADDING PROGRAM/DATA TO RAM ON SYSTEM STARTUP](https://github.com/srmfx/Zicroram?tab=readme-ov-file#adding-programsdata-to-ram-during-system-startup)
+[ADDING PROGRAM/DATA TO RAM ON SYSTEM STARTUP](https://github.com/srmfx/Zicroram#adding-programsdata-to-ram-during-system-startup)
 
-[USE LICENSE](https://github.com/srmfx/Zicroram?tab=readme-ov-file#use-license)
+[USE LICENSE](https://github.com/srmfx/Zicroram#use-license)
 
-[OPERATING SYSTEM SUPPORT](https://github.com/srmfx/Zicroram?tab=readme-ov-file#operating-system-support)
+[OPERATING SYSTEM SUPPORT](https://github.com/srmfx/Zicroram#operating-system-support)
 
-[INSTALLATION](https://github.com/srmfx/Zicroram?tab=readme-ov-file#installation)
+[INSTALLATION](https://github.com/srmfx/Zicroram#installation)
 
-[AUTHOR](https://github.com/srmfx/Zicroram?tab=readme-ov-file#installation)
+[AUTHOR](https://github.com/srmfx/Zicroram#author)
 
-[BUGS](https://github.com/srmfx/Zicroram?tab=readme-ov-file#bugs)
+[BUGS](https://github.com/srmfx/Zicroram#bugs)
 
-[TROUBLESHOOTING](https://github.com/srmfx/Zicroram?tab=readme-ov-file#troubleshooting)
+[TROUBLESHOOTING](https://github.com/srmfx/Zicroram#troubleshooting)
 
 
 ## ABOUT:
