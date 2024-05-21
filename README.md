@@ -39,7 +39,7 @@ Many more commands can be found by typing:
     $ zicroram --help    
 The --help command will list and thoroughly explain each of the commands.
 
-### CREATING .ZICRORAM FILES
+### CREATING .ZICRORAM FILES:
 
 A .zicroram file can be created to make it easier adding programs and/or group of programs into ram in such a way the user doesn't have to worry about creating a shell(bash/zsh) script for it.
 
@@ -53,9 +53,61 @@ To do this, simply create a file with an extension called '.zicroram', then make
         ~/Documents
     [/file]
 
+*Note that you do not have to use the notation for file that is located between brackets: '[' and ']'.
+The brackets are only meant here so that the user understands this is the contents of a file.*
+
 Now you can add all programs using a single command:
 
     $ ./zicroram --add ~/my_programs.zicroram
+
+### ADDING PROGRAMS/DATA TO RAM DURING SYSTEM STARTUP
+Adding programs into ram in this specific case can be achieved by adding 'zicroram --boots ..' inside your .bash_profile( for bash users )
+or .zprofile ( for zsh users ) file:
+
+for ZSH users:
+- system wide configuration file:
+
+        [file: /etc/zsh/zprofile]
+            zicroram --boots ~/my_programs.zicroram
+        [/file]
+
+- user configuration file:
+
+        [file: ~/.zprofile]
+            zicroram --boots ~/my_programs.zicroram
+        [/file]
+
+for BASH users:
+ 
+- system wide configuration file:
+
+        [file: /etc/profile]
+            zicroram --boots ~/my_programs.zicroram
+        [/file]
+
+- user configuration file:
+
+        [file: ~/.bash_profile]
+            zicroram --boots ~/my_programs.zicroram
+        [/file]
+
+*Note that you do not have to use the notation for file that is located between brackets: '[' and ']'.
+The brackets are only meant here so that the user understands this is the contents of a file.*
+
+The **--boots** instruction outputs to screen a copy-to-ram progress and makes the user wait for the whole process to finish,
+however depending on the program and/or how fast your hard drives are, it's possible to bypass this step and avoid all the 'waiting' during system startup; 
+if such is the case, then use **--bootsc** instead of **--boots** - However, currently it's not possible to check copy progress after bypassing it with such option.
+
+Check the manual after installing for more information on --boots and --bootsc:
+
+    $ man zicroram
+        or
+    $ zicroram --help-program
+
+#### Note for non-bash and non-zsh users:
+If you use something other than 'bash' and 'zsh', like 'tcsh' you'll have to search for it's system/user configuration file(s)
+and do the same described here.
+
 
 ### USE LICENSE:
 
