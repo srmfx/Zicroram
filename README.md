@@ -3,6 +3,10 @@ Official Shareware Binary Repository for Zicroram
 ## TOPICS
 [ABOUT](https://github.com/srmfx/Zicroram#ABOUT)
 
+[DOWNLOADING](https://github.com/srmfx/Zicroram#downloading)
+
+[INSTALLATION](https://github.com/srmfx/Zicroram#installation)
+
 [HOW IT WORKS](https://github.com/srmfx/Zicroram#how-it-works)
 
 [CREATING ZICRORAM FILES](https://github.com/srmfx/Zicroram#creating-zicroram-files)
@@ -14,8 +18,6 @@ Official Shareware Binary Repository for Zicroram
 [USE LICENSE](https://github.com/srmfx/Zicroram#use-license)
 
 [OPERATING SYSTEM SUPPORT](https://github.com/srmfx/Zicroram#operating-system-support)
-
-[INSTALLATION](https://github.com/srmfx/Zicroram#installation)
 
 [AUTHOR](https://github.com/srmfx/Zicroram#author)
 
@@ -45,7 +47,27 @@ The program also includes a man page, you can read it once the program is instal
 
     $ man zicroram
 
-## HOW IT WORKS:
+## DOWNLOADING
+At the far right side of the screen, you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz ", note that this is an alias name and the file will actually be downloaded as "zicroram.tar.gz" onto your hard drive; after download is done, the '.tar.gz' is a tar compressed file and as such needs to be uncompressed using the 'tar' tool:
+
+Extracting into current directory:
+
+    $ tar xvf ./zicroram.tar.gz;
+
+or, extracting in a new directory:
+
+    $ mkdir ./new_dir;
+    $ tar xvf ./zicroram.tar.gz -C ./new_dir;
+
+## INSTALLATION
+
+Installation can be realized through it's commandline interface(CLI) through any terminal emulator installed on your linux system : 
+
+    $ ./zicroram --install-wizard
+
+The program will automatically request root authorization for the user if necessary.
+
+## HOW IT WORKS
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
 
     $ zicroram --add ~/Pictures ~/Music ~/Downloads
@@ -62,9 +84,9 @@ Many more commands can be found by typing:
     $ zicroram --help    
 The --help command will list and thoroughly explain each of the commands.
 
-## CREATING .ZICRORAM FILES:
+## CREATING .ZICRORAM FILES
 
-A .zicroram file can be created to make it easier adding programs and/or group of programs into ram in such a way the user doesn't have to worry about creating a shell(bash/zsh) script for it.
+A file with a .zicroram extension can be optionally created to make it easy adding programs and/or group of programs into ram in such a way the user doesn't have to worry about creating a shell(bash/zsh) script.
 
 To do this, simply create a file with an extension called '.zicroram', then make sure each line corresponds to a directory/path on your disk; finally, you can then add as much programs and data(ex.: pictures, songs, etc..) as you want in this single file. example:
 
@@ -94,7 +116,7 @@ the **--restore** instruction will simply remove the symlink(s) that have been c
 
 because of this, do not forget to use **--mmbackup** or **--mtbackup** if you need to.
 
-## ADDING PROGRAMS/DATA TO RAM DURING SYSTEM STARTUP:
+## ADDING PROGRAMS/DATA TO RAM DURING SYSTEM STARTUP
 Adding programs into ram in this specific case can be achieved by adding **'zicroram --boots ..'** inside your .bash_profile( for bash users )
 or .zprofile ( for zsh users ) file:
 
@@ -142,8 +164,7 @@ Check the manual after installing for more information on --boots and --bootsc:
 If you use something other than 'bash' and 'zsh', like 'tcsh' you'll have to search for it's system/user configuration file(s)
 and do the same described here.
 
-
-## USE LICENSE:
+## USE LICENSE
 
 Upon program installation using **zicroram --install-wizard** the user must agree with the displayed use license;
 if the user doesn't agree with one or more terms the installation will be cancelled and the user should 
@@ -154,7 +175,7 @@ since RAM Storage isn't a persistent type of storage, important data may be perm
 
 If you don't agree with the USE LICENSE of this program, do not use it! You've been warned.
 
-## OPERATING SYSTEM SUPPORT:
+## OPERATING SYSTEM SUPPORT
 
 Zicroram should work on all GNU Linux Distributions out-of-box as long as they support:
 
@@ -168,15 +189,8 @@ Zicroram runs as an administrative tool on your system, so root access through '
 
 It's advisable not to run this program under Windows' WSL; last time I checked WSL didn't support real TMPFS Filesystem and instead uses the Hard Drive as TMPFS device instead of the Ram Memory thus making the program developed in here pointless.
 
-## INSTALLATION:
 
-Installation can be initialized through it's commandline interface(CLI): 
-
-    $ ./zicroram --install-wizard
-
-The program will automatically request root authorization for the user as necessary.
-
-## AUTHOR:
+## AUTHOR
 
 The program in here was sole developed by a single dev,
 
@@ -185,12 +199,12 @@ get in contact with him on the email provided in the binary release of this prog
 ###### Author: Sebastião Ribeiro Monteiro Filho
 ###### Email: srmfsrmf@hotmail.com
 
-## BUGS:
+## BUGS
 
 If you've found a bug, you're welcome to open an issue and report it in this github.
 DO NOT SEND bugs or problems over email, they'll be automatically ignored and treated as junk.
 
-## TROUBLESHOOTING:
+## TROUBLESHOOTING
 
 The binary program offers a quickhand page on troubleshooting that you can read regardless if the program is installed on the system:
 
