@@ -48,7 +48,7 @@ The program also includes a man page, you can read it once the program is instal
     $ man zicroram
 
 ## DOWNLOADING
-At the far right side of the screen, you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz ", note that this is an alias name and the file will actually be downloaded as "zicroram.tar.gz" onto your hard drive; after download is done, the '.tar.gz' is a tar compressed file and as such needs to be uncompressed using the 'tar' tool:
+At the far right side of the screen - at the top of this page - you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz ", note that this is an alias name and the file will actually be downloaded as "zicroram.tar.gz" onto your hard drive; after download is done, the '.tar.gz' is a tar compressed file and as such needs to be uncompressed using the 'tar' tool:
 
 Extracting into current directory:
 
