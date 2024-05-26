@@ -34,17 +34,19 @@ Zicroram is a command-line tool for the LINUX TMPFS/RAMFS Filesystem that works 
 
 1 - Adding(Synchronously and Assynchronously) Data to RAM(**--add** or **--addc**)
 
-2 - Removing Data from RAM(**--remove-all** or **--remove**)
+2 - Checking Status (**--usage** or **--usagel**)
 
-3 - Restoring Data from DISK Back into RAM (**--restore**)
+3 - Removing Data from RAM(**--remove-all** or **--remove**)
 
-4 - Backing up data from RAM Into disk (**--mmbackup** and **--mtbackup**)
+4 - Restoring Data from DISK Back into RAM (**--restore**)
 
-5 - Copying programs on system bootup (**--boots** or **--bootsc**)
+5 - Backing up data from RAM Into disk (**--mmbackup** and **--mtbackup**)
 
-6 - More instructions & commands (**--help**, **--help-setup**, **--help-program**, **--help-info**)
+6 - Copying programs on system bootup (**--boots** or **--bootsc**)
 
-7 - Troubleshoot (**--troubleshoot**)
+7 - More instructions & commands (**--help**, **--help-setup**, **--help-program**, **--help-info**)
+
+8 - Troubleshoot (**--troubleshoot**)
 
 The program also includes a man page, you can read it once the program is installed on the system: 
 
