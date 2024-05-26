@@ -81,7 +81,7 @@ Uninstallation can only be done once after the program is fully installed :
 
     $ zicroram --uninstall
 
-If you go through problems during uninstallation, you'll need to follow the troubleshoot :
+If you go through problems during uninstallation, you'll need to read the troubleshoot :
 
     $ zicroram --troubleshoot
 
