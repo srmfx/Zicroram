@@ -10,7 +10,7 @@ Official Shareware Binary Repository for Zicroram
 
 [UNINSTALLATION](https://github.com/srmfx/Zicroram#uninstallation)
 
-[HOW IT WORKS](https://github.com/srmfx/Zicroram#how-it-works)
+[HOW IT WORKS](#how-it-works)
 
 [CREATING ZICRORAM FILES](https://github.com/srmfx/Zicroram#creating-zicroram-files)
 
