@@ -81,9 +81,7 @@ Uninstallation can only be done once after the program is fully installed :
 
     $ zicroram --uninstall
 
-If you go through problems during uninstallation, you'll need to read the troubleshoot :
-
-    $ zicroram --troubleshoot
+If you go through problems during uninstallation, make sure you close any programs that you might be running after adding them to RAM using zicroram.
 
 ## HOW IT WORKS
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
