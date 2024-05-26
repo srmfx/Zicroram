@@ -61,7 +61,7 @@ or, extracting in a new directory:
 
 ## INSTALLATION
 
-Installation can be realized through it's commandline interface(CLI) through any terminal emulator installed on your linux system : 
+Installation can be realized through it's commandline interface(CLI) through any terminal emulator installed on your linux distribution : 
 
     $ ./zicroram --install-wizard
 
