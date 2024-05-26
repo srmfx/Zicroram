@@ -2,31 +2,31 @@
 Official Shareware Binary Repository for Zicroram
 
 ## TOPICS
-[ABOUT](https://github.com/srmfx/Zicroram#ABOUT)
+[ABOUT](#ABOUT)
 
-[DOWNLOADING](https://github.com/srmfx/Zicroram#downloading)
+[DOWNLOADING](#downloading)
 
-[INSTALLATION](https://github.com/srmfx/Zicroram#installation)
+[INSTALLATION](#installation)
 
-[UNINSTALLATION](https://github.com/srmfx/Zicroram#uninstallation)
+[UNINSTALLATION](#uninstallation)
 
 [HOW IT WORKS](#how-it-works)
 
-[CREATING ZICRORAM FILES](https://github.com/srmfx/Zicroram#creating-zicroram-files)
+[CREATING ZICRORAM FILES](#creating-zicroram-files)
 
-[RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES](https://github.com/srmfx/Zicroram#restoring-data-from-power-blackouts-system-crashes-or-freezes)
+[RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES](#restoring-data-from-power-blackouts-system-crashes-or-freezes)
 
-[ADDING PROGRAM/DATA TO RAM ON SYSTEM STARTUP](https://github.com/srmfx/Zicroram#adding-programsdata-to-ram-during-system-startup)
+[ADDING PROGRAM/DATA TO RAM ON SYSTEM STARTUP](#adding-programsdata-to-ram-during-system-startup)
 
-[USE LICENSE](https://github.com/srmfx/Zicroram#use-license)
+[USE LICENSE](#use-license)
 
-[OPERATING SYSTEM SUPPORT](https://github.com/srmfx/Zicroram#operating-system-support)
+[OPERATING SYSTEM SUPPORT](#operating-system-support)
 
-[AUTHOR](https://github.com/srmfx/Zicroram#author)
+[AUTHOR](#author)
 
-[BUGS](https://github.com/srmfx/Zicroram#bugs)
+[BUGS](#bugs)
 
-[TROUBLESHOOTING](https://github.com/srmfx/Zicroram#troubleshooting)
+[TROUBLESHOOTING](#troubleshooting)
 
 
 ## ABOUT:
