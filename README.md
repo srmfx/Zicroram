@@ -1,5 +1,6 @@
 # Zicroram
 Official Shareware Binary Repository for Zicroram
+
 ## TOPICS
 [ABOUT](https://github.com/srmfx/Zicroram#ABOUT)
 
@@ -27,7 +28,7 @@ Official Shareware Binary Repository for Zicroram
 
 
 ## ABOUT:
-Zicroram is a CLI for the LINUX TMPFS/RAMFS Filesystem that adds up Ramdisk/Ramdrive features:
+Zicroram is a CLI for the LINUX TMPFS/RAMFS Filesystem that adds up Ramdisk/Ramdrive features to GNU Linux Distributions:
 
 1 - Adding(Synchronously and Assynchronously) Data to RAM(**--add** or **--addc**)
 
@@ -46,6 +47,11 @@ Zicroram is a CLI for the LINUX TMPFS/RAMFS Filesystem that adds up Ramdisk/Ramd
 The program also includes a man page, you can read it once the program is installed on the system: 
 
     $ man zicroram
+    
+## ABOUT SHAREWARE VERSION
+The use of the shareware version here available is limited to 15GB of RAM. You can keep using this program indefinitely, by simply removing programs and freeing up space. Full version features no limitations, however full version isn't yet available to public use.
+
+The shareware limitation is only imposed on the tool(zicroram) side; which means no limitation is ever set on the Linux Operating System nor on the TMPFS/RAMFS Kernel Modules and none of it's configuration files.
 
 ## DOWNLOADING
 At the far right side of the screen - at the top of this page - you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz ", note that this is an alias name and the file will actually be downloaded as "zicroram.tar.gz" onto your hard drive; the '.tar.gz' is a tar compressed file and after downloading it, it'll need to be uncompressed using the 'tar' tool:
