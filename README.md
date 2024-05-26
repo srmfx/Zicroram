@@ -8,6 +8,8 @@ Official Shareware Binary Repository for Zicroram
 
 [INSTALLATION](https://github.com/srmfx/Zicroram#installation)
 
+[UNINSTALLATION](https://github.com/srmfx/Zicroram#uninstallation)
+
 [HOW IT WORKS](https://github.com/srmfx/Zicroram#how-it-works)
 
 [CREATING ZICRORAM FILES](https://github.com/srmfx/Zicroram#creating-zicroram-files)
@@ -72,6 +74,16 @@ Installation can be realized through it's commandline interface(CLI) through any
     $ ./zicroram --install-wizard
 
 The program will automatically request root authorization for the user if necessary.
+
+## UNINSTALLATION
+
+Uninstallation can only be done once after the program is fully installed :
+
+    $ zicroram --uninstall
+
+If you go through problems during uninstallation, you'll need to follow the troubleshoot :
+
+    $ zicroram --troubleshoot
 
 ## HOW IT WORKS
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
