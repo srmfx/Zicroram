@@ -20,7 +20,7 @@ Official Shareware Binary Repository for Zicroram
 
 [USE LICENSE](#use-license)
 
-[OPERATING SYSTEM SUPPORT](#operating-system-support--system-requirements)
+[OPERATING SYSTEM SUPPORT || SYSTEM REQUIREMENTS](#operating-system-support--system-requirements)
 
 [AUTHOR](#author)
 
