@@ -193,7 +193,7 @@ since RAM Storage isn't a persistent type of storage, important data may be perm
 
 If you don't agree with the USE LICENSE of this program, do not use it! You've been warned.
 
-## OPERATING SYSTEM SUPPORT
+## OPERATING SYSTEM SUPPORT || SYSTEM REQUIREMENTS
 
 Zicroram should work on all GNU Linux Distributions out-of-box as long as they support:
 
@@ -201,9 +201,7 @@ Zicroram should work on all GNU Linux Distributions out-of-box as long as they s
 
 **2 - TMPFS Enabled kernel.**
 
-Zicroram runs as an administrative tool on your system, so root access through 'sudo' is required. 
-
-'doas' still not supported in the current version of this program.
+Zicroram runs as an administrative tool on your system, so root access through 'sudo' or 'doas' is required.
 
 It's advisable not to run this program under Windows' WSL; last time I checked WSL didn't support real TMPFS Filesystem and instead uses the Hard Drive as TMPFS device instead of the Ram Memory thus making the program developed in here pointless.
 
