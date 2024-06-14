@@ -91,7 +91,7 @@ If you go through problems during uninstallation, make sure you close any progra
 
 Program can easily be updated whenever a new version exists server-side:
 
-    $ ziroram --update
+    $ zicroram --update
 
 ## HOW IT WORKS
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
