@@ -10,6 +10,8 @@ Official Shareware Binary Repository for Zicroram
 
 [UNINSTALLATION](#uninstallation)
 
+[UPDATE](#update)
+
 [HOW IT WORKS](#how-it-works)
 
 [CREATING ZICRORAM FILES](#creating-zicroram-files)
@@ -58,7 +60,7 @@ The use of the shareware version here available is limited to 15GB of RAM. You c
 The shareware limitation is only imposed on the tool(zicroram) side; which means no limitation is ever set on the Linux Operating System nor on the TMPFS/RAMFS Kernel Modules and none of it's configuration files.
 
 ## DOWNLOADING
-At the far right side of the screen - at the top of this page - you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz ", note that this is an alias name and the file will actually be downloaded as "zicroram.tar.gz" onto your hard drive; the '.tar.gz' is a tar compressed file and after downloading it, it'll need to be uncompressed using the 'tar' tool:
+At the far right side of the screen - at the top of this page - you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz "; the '.tar.gz' is a tar compressed file and after downloading it, it'll need to be uncompressed using the 'tar' tool:
 
 Extracting into current directory:
 
@@ -84,6 +86,12 @@ Uninstallation can only be done once after the program is fully installed :
     $ zicroram --uninstall
 
 If you go through problems during uninstallation, make sure you close any programs that you might be running after adding them to RAM using zicroram.
+
+## UPDATE
+
+Program can easily be updated whenever a new version exists server-side:
+
+    $ ziroram --update
 
 ## HOW IT WORKS
 The program works by creating and mounting a TMPFS device called /zicroram/ and allowing the user to add any data through a simple command, like for example:
