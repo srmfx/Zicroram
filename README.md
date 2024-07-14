@@ -205,7 +205,7 @@ If you don't agree with the USE LICENSE of this program, do not use it! You've b
 
 Zicroram should work on all GNU Linux Distributions out-of-box as long as they support:
 
-**1 - GLIBC 2.34**
+**1 - GLIBC 2.34 or Greater**
 
 **2 - TMPFS Enabled kernel.**
 
