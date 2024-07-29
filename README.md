@@ -32,7 +32,7 @@ Official Shareware Binary Repository for Zicroram
 
 
 ## ABOUT:
-Zicroram is a command-line tool for the LINUX TMPFS/RAMFS Filesystem that works by adding up the following utility features:
+Zicroram is a command-line tool for the LINUX TMPFS/RAMFS Filesystem that works by adding up the following features:
 
 1 - Adding(Synchronously and Assynchronously) Data to RAM(**--add** or **--addc**)
 
