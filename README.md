@@ -223,6 +223,10 @@ get in contact with him on the email provided in the binary release of this prog
 ###### Author: Sebastião Ribeiro Monteiro Filho
 ###### Email: srmfsrmf@hotmail.com
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=srmfx&rank=SECRET,SSS,SS,S,AAA,AA,A&row=1&column=-1"/>
+</p>
+
 ## BUGS
 
 If you've found a bug, you're welcome to open an issue and report it in this github.
