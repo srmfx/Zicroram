@@ -224,7 +224,7 @@ get in contact with him on the email provided in the binary release of this prog
 ###### Email: srmfsrmf@hotmail.com
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=srmfx&rank=SECRET,SSS,SS,S,AAA,AA,A&row=1&column=-1"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=srmfx&theme=onedark&rank=SECRET,SSS,SS,S,AAA,AA,A&row=1&column=-1"/>
 </p>
 
 ## BUGS
