@@ -1,5 +1,5 @@
 # Zicroram
-Official Shareware Binary Repository for Zicroram
+Zicroram's Official Shareware Github.
 
 ## TOPICS
 [ABOUT](#ABOUT)
