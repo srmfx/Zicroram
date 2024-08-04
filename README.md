@@ -114,7 +114,7 @@ The --help command will list and thoroughly explain each of the commands.
 
 A file with a .zicroram extension can be optionally created to make it easy adding programs and/or group of programs into ram in such a way the user doesn't have to worry about creating a shell(bash/zsh) script.
 
-To do this, simply create a file with an extension called '.zicroram', then make sure each line corresponds to a directory/path on your disk; finally, you can then add as much programs and data(ex.: pictures, songs, etc..) as you want in this single file. example:
+To do this, simply create a file with an extension called '.zicroram', then make sure each line corresponds to a directory or file of your choice; you can then add as much data(ex.: pictures, songs, etc..) as you want in this single file. example:
 
     [file: ~/my_programs.zicroram]
         /usr/share/gimp
