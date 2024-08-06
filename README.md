@@ -2,7 +2,12 @@
 Zicroram's Official Shareware Github.
 
 ## TOPICS
-[ABOUT](#ABOUT)
+
+[ABOUT](#about)
+
+[ABOUT THIS SHAREWARE VERSION](#about-this-shareware-version)
+
+[CURRENT LIMITATIONS](#current-limitations)
 
 [DOWNLOADING](#downloading)
 
@@ -58,6 +63,12 @@ The program also includes a man page, you can read it once the program is instal
 The use of the shareware version here available is limited to 15GB of RAM. You can keep using this program indefinitely, by simply removing programs and freeing up space. Full version features no limitations, however full version isn't yet available to public use.
 
 The shareware limitation is only imposed on the tool(zicroram) side; which means no limitation is ever set on the Linux Operating System nor on the TMPFS/RAMFS Kernel Modules and none of it's configuration files.
+
+## CURRENT LIMITATIONS
+
+- Reflink file support is non-existent; currently, neither TMPFS nor RAMFS supports CoW/Reflink data; in other words as of this date it'd be impossible to give it support today. However, this is only a problem when doing DATA BACKUPS using '--mmbackup', '--mtbackup', '--mmremove' after changing/editing/updating the reflinked file in RAM. If no editing of reflinked files takes places, then doing DATA BACKUPS isn't a problem and should be fine.
+- When adding directories to RAM using this program, Hard Linked files located inside the given directory tree will only keep their Hard Link reference for hard linked files located inside this same directory tree structure when doing DATA BACKUPS with --mmbackup, --mtbackup, --mmremove. This means hard linked files who are located outside the directory tree structure will lose their hard link reference upon backup; HOWEVER, none of the files are lost and the hard link reference loss only happens if the hard linked file is updated/changed/edited in RAM and only for the file located outside the directory tree structure. Hard Link References inside the directory tree structure will be kept. If no hard-linked files are changed, then doing DATA BACKUPS should be 100% safe.
+- If a single hard-linked file is added to RAM(instead of an entire directory), hard link reference will be lost when doing backups using '--mmbackup', '--mtbackup', '--mmremove' after it has been edited/changed/updated in RAM. If the file hasn't been edited/changed/updated while in RAM, doing backups shouldn't be a problem since literally nothing will be copied due to no data differences being found.
 
 ## DOWNLOADING
 At the far right side of the screen - at the top of this page - you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz "; the '.tar.gz' is a tar compressed file and after downloading it, it'll need to be uncompressed using the 'tar' tool:
