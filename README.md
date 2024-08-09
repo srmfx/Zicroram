@@ -37,7 +37,7 @@ Zicroram's Official Shareware Github.
 
 
 ## ABOUT:
-Zicroram is a C/C++ Ramdisk Command-Line Interface for Linux TMPFS/RAMFS that adds up further ramdrive capabilities:
+Zicroram is a C/C++ Ramdisk Command-Line Tool for Linux TMPFS/RAMFS that adds up further ramdrive capabilities:
 
 1 - Adding(Synchronously and Assynchronously) Data to RAM(**--add** or **--addc**)
 
