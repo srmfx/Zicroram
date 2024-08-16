@@ -68,7 +68,7 @@ The shareware limitation is only imposed on the tool(zicroram) side; which means
 
 - For those who are under Security-Enhanced Linux (SELinux), you can still normally use the program, however if you(or the system) ever makes any changes to SELinux metadata features for a given specific data, those changes can't be detected as of yet and therefore not backed up from ram to disk on user request when using '--mmbackup', '--mtbackup', '--checks', '--mmremove'. Any other types of changes will be detected and backed up normally.
 
-- Reflink file support is non-existent; currently, neither TMPFS nor RAMFS supports CoW/Reflink data; in other words as of this date it'd be impossible to give it support today. However, this is only a problem when doing DATA BACKUPS using '--mmbackup', '--mtbackup', '--mmremove' after changing/editing/updating the reflinked file in RAM. If no editing of reflinked files takes places, then doing DATA BACKUPS isn't a problem and should be fine. When a reflinked file is copied to RAM using this program and a DATA BACKUP is realized on the reflinked file due to changes/moddifications, then reflinking/cow on the file will be lost when copied to disk.
+- Reflink file support is non-existent; currently, neither TMPFS nor RAMFS supports CoW/Reflink data; in other words as of this date it'd be impossible to give it support today. However, this is only a problem when doing DATA BACKUPS using '--mmbackup', '--mtbackup', '--mmremove' after changing/editing/updating the reflinked file in RAM. If no editing of reflinked files takes places, then doing DATA BACKUPS isn't a problem and should be fine.
 
 **About Current Limitations:** About reflinks/CoW'd files not being supported on TMPFS/RAMFS, there's nothing that can currently be done.
 
