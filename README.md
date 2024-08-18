@@ -72,7 +72,7 @@ The shareware limitation is only imposed on the tool(zicroram) side; which means
 
 **About Current Limitations:** About reflinks/CoW'd files not being supported on TMPFS/RAMFS, there's nothing that can currently be done.
 
-**Workaround for REflinked data and SELinux:** If you really need to work with reflinked/cow'd files or SELinux filesystem features, you can still write or user alternative backup tool(s) for it.
+**Workaround for SELinux:** If you really need to work with SELinux filesystem features, you can still use this program and either write/code or use alternative backup tool(s) for your specific data.
 
 ## DOWNLOADING
 At the far right side of the screen - at the top of this page - you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz "; the '.tar.gz' is a tar compressed file and after downloading it, it'll need to be uncompressed using the 'tar' tool:
