@@ -70,7 +70,7 @@ The shareware limitation is only imposed on the tool(zicroram) side; which means
 
 - Reflink file support is non-existent; currently, neither TMPFS nor RAMFS supports CoW/Reflink data; in other words as of this date it'd be impossible to give it support today. However, this is only a problem when doing DATA BACKUPS using '--mmbackup', '--mtbackup', '--mmremove' after changing/editing/updating the reflinked file in RAM. If no editing of reflinked files takes place, then doing DATA BACKUPS isn't a problem and should be fine.
 
-**About Current Limitations:** About reflinks/CoW'd files not being supported on TMPFS/RAMFS, there's nothing that can currently be done.
+**About Current Limitation on REFLINK:** There's zero support on TMPFS/RAMFS, so there's literally nothing that can currently be done.
 
 **Workaround for SELinux:** If you really need to work with SELinux filesystem features, you can still use this program and either write/code or use alternative backup tool(s) for your specific data.
 
