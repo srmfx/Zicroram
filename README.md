@@ -21,6 +21,8 @@ Zicroram's Official Shareware Github.
 
 [CREATING ZICRORAM FILES](#creating-zicroram-files)
 
+[RULES FOR IDENTATION AND COMMENTS IN .ZICRORAM FILES](#rules-for-identation-and-comments-in-.zicroram-files)
+
 [RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES](#restoring-data-from-power-blackouts-system-crashes-or-freezes)
 
 [ADDING PROGRAM/DATA TO RAM ON SYSTEM STARTUP](#adding-programsdata-to-ram-during-system-startup)
@@ -132,11 +134,16 @@ A file with a .zicroram extension can be optionally created to make it easy addi
 To do this, simply create a file with an extension called '.zicroram', then make sure each line corresponds to a directory or file of your choice; you can then add as much data(ex.: pictures, songs, etc..) as you want in this single file. example:
 
     [file: ~/my_programs.zicroram]
-        /usr/share/gimp
-        /usr/share/gvim
-        ~/Music
-        ~/Pictures
-        ~/Documents
+        #GIMP - Image Editor:
+            /usr/share/gimp
+            
+        #GVIM - Text Editor:
+            /usr/share/gvim
+
+        #Personal Files/Documents:
+            ~/Music
+            ~/Pictures    #My Pictures
+            ~/Documents    #My Documents
     [/file]
 
 *Note that you do not have to use the notation for file that is located between brackets: '[' and ']'.
@@ -145,6 +152,15 @@ The brackets are only meant here so that the user understands this is the conten
 Now you can add all programs using a single command:
 
     $ ./zicroram --add ~/my_programs.zicroram
+
+## RULES FOR IDENTATION AND COMMENTS IN .ZICRORAM FILES
+As you have seen in the example above, you can add comments to lines, create comment lines ident text for better readability and maintainability of the files; for doing this  you need to follow these simple rules below.
+
+1 - You can create text identation using Tabulation(Tab) Key or white(blank) space key.
+
+2 - For creating a comment line, you can add '#' character at the start of a line.
+
+3 - To create a comment line at the same line as an existing data, you can use Tabulation(Tab) Key and '#' character.
     
 ## RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES
 With the --restore instruction it's possible to recover previously existing data that is still located on the disk;
