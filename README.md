@@ -21,7 +21,7 @@ Zicroram's Official Shareware Github.
 
 [CREATING ZICRORAM FILES](#creating-zicroram-files)
 
-[RULES FOR IDENTATION AND COMMENTS IN .ZICRORAM FILES](#rules-for-identation-and-comments-in-.zicroram-files)
+[RULES FOR IDENTATION AND COMMENTS IN .ZICRORAM FILES](#rules-for-identation-and-comments-in-zicroram-files)
 
 [RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES](#restoring-data-from-power-blackouts-system-crashes-or-freezes)
 
