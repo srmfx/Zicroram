@@ -146,8 +146,8 @@ To do this, simply create a file with an extension called '.zicroram', then make
             ~/Documents    #My Documents
     [/file]
 
-*Note that you do not have to use the notation for file that is located between brackets: '[' and ']'.
-The brackets are only meant here so that the user understands this is the contents of a file.*
+*Note that you SHOULD NOT have to use the notation for file that is located between brackets: '[' and ']'.
+The brackets are only meant so that the user understands those are the pertaining contents of a file.*
 
 Now you can add all programs using a single command:
 
