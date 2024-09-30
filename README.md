@@ -149,7 +149,7 @@ To do this, simply create a file with an extension called '.zicroram', then make
 *Note that you SHOULD NOT have to use the notation for file that is located between brackets: '[' and ']'.
 The brackets are only meant so that the user understands those are the pertaining contents of a given file.*
 
-Now you can add all programs using a single command:
+Now you can add all data using a single command:
 
     $ ./zicroram --add ~/my_programs.zicroram
 
