@@ -154,14 +154,16 @@ Now you can add all programs using a single command:
     $ ./zicroram --add ~/my_programs.zicroram
 
 ## RULES FOR IDENTATION AND COMMENTS IN .ZICRORAM FILES
-As you have seen in the example above, you can add comments to lines, create comment lines ident text for better readability and maintainability of the files; for doing this  you need to follow these simple rules below.
+As you have seen in the example above, you can add comments to lines, create comment lines  and make use of text-ident for better readability and maintainability of the .zicroram files; for doing this  you need to follow these simple rules below.
 
 1 - You can create text identation using Tabulation(Tab) Key or white(blank) space key.
 
 2 - For creating a comment line, you can add '#' character at the start of a line.
 
 3 - To create a comment line at the same line as an existing data, you can use Tabulation(Tab) Key and '#' character.
-    
+
+The previous topic above provides a full example: [CREATING ZICRORAM FILES](#creating-zicroram-files)
+
 ## RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES
 With the --restore instruction it's possible to recover previously existing data that is still located on the disk;
 however, it's important to understand that changes that might have been made while data was into ram is now permanently lost at this point:
