@@ -5,7 +5,7 @@ Zicroram's Official Shareware Github.
 
 [ABOUT](#about)
 
-[ABOUT THIS SHAREWARE VERSION](#about-this-shareware-version)
+[ABOUT ZICRORAM'S SHAREWARE VERSION](#about-zicroram-shareware-version)
 
 [CURRENT LIMITATIONS](#current-limitations)
 
@@ -61,10 +61,12 @@ The program also includes a man page, you can read it once the program is instal
 
     $ man zicroram
     
-## ABOUT THIS SHAREWARE VERSION
-The use of the shareware version here available is limited to 15GB of RAM. You can keep using this program indefinitely, by simply removing programs and freeing up space. Full version features no limitations, however full version isn't yet available to public use.
+## ABOUT ZICRORAM SHAREWARE VERSION
+The use of the shareware version here available is limited to 15GB of RAM. The user can keep using this program indefinitely, until they reach the specified data size restrictions, which can be simply removed by excluding any data that has been added while by using the --remove command. Full version features no limitations, however full version won't be available to public use for free.
 
-The shareware limitation is only imposed on the tool(zicroram) side; which means no limitation is ever set on the Linux Operating System nor on the TMPFS/RAMFS Kernel Modules and none of it's configuration files.
+The shareware limitation is imposed on zicroram's side only; this means no limitation is ever set on the Linux Operating System nor it's configuration files and none of the TMPFS/RAMFS Kernel Modules settings.
+
+The restriction is hard-coded within the program only, for limitting only how much the user can access the program's utility and not to completely restrict user access to the functions given by linux.
 
 ## CURRENT LIMITATIONS
 
@@ -115,12 +117,12 @@ The program works by creating and mounting a TMPFS device called /zicroram/ and 
 
     $ zicroram --add ~/Pictures ~/Music ~/Downloads
 
-After this the program will symlink the real path where the data was located to the newly created TMPFS mounted device allowing the user to call on his data as if it were still on the disk. The real data will be renamed to keep it safe from power blackouts and system crashes until either a --remove or --restore command is used.
+After doing this, the program will bind mount the real path where the data was located, targetting the newly created TMPFS mounted device, allowing the user to use his data in RAM as if it was still on the disk; The original data will be renamed to keep it safe.
 
-In case of system crash or power blackout, once your system reboots, data can be easily restored to real data path using
+In case of system crash or power blackout, as soon as your system reboots, data can be easily restored to it's original path using:
 
     $ zicroram --restore
-The above command will put the original files back in place where the symlinks were created.
+The above command will put the original files back in place, after umounting the bind mount.
 
 Many more commands can be found by typing: 
 
@@ -129,7 +131,7 @@ The --help command will list and thoroughly explain each of the commands.
 
 ## CREATING .ZICRORAM FILES
 
-A file with a .zicroram extension can be optionally created to make it easy adding programs and/or group of programs into ram in such a way the user doesn't have to worry about creating a shell(bash/zsh) script.
+A file with a .zicroram extension can be optionally created to make it easy adding programs and/or group of programs into ram in such a way that the user doesn't have to worry about creating a shell(bash/zsh) script.
 
 To do this, simply create a file with an extension called '.zicroram', then make sure each line corresponds to a directory or file of your choice; you can then add as much data(ex.: pictures, songs, etc..) as you want in this single file. example:
 
@@ -154,7 +156,7 @@ Now you can add all data using a single command:
     $ ./zicroram --add ~/my_programs.zicroram
 
 ## RULES FOR IDENTATION AND COMMENTS IN .ZICRORAM FILES
-As you have seen in the example above, you can add comments to lines, create comment lines  and make use of text-ident for better readability and maintainability of the .zicroram files; for doing this  you need to follow these simple rules below.
+As you have seen in the example above, you can add comments to lines, create comment lines  and make use of text-ident for better readability and maintainability of the .zicroram files; for doing this  you need to follow these rules below.
 
 1 - You can create text identation using Tabulation(Tab) Key or white(blank) space key.
 
@@ -166,12 +168,12 @@ The previous topic above provides a full example: [CREATING ZICRORAM FILES](#cre
 
 ## RESTORING DATA FROM POWER BLACKOUTS, SYSTEM CRASHES OR FREEZES
 With the --restore instruction it's possible to recover previously existing data that is still located on the disk;
-however, it's important to understand that changes that might have been made while data was into ram is now permanently lost at this point:
+however, it's important to understand that changes that might have been made while data was into ram is now permanently lost at this point if you didn't made a backup with --mtbackup, --mmbackup or --mmremove:
 
     $ zicroram --restore
 
-Restore is only possible, because zicroram renames the original data before creating a symlink and copying the desired program(or data) into ram;
-the **--restore** instruction will simply remove the symlink(s) that have been created then it'll move and rename the original data back to where it originally was.
+Restore is only possible, because zicroram renames the original data before creating a dummy data, then bind mounting and copying the desired program(or data) into ram; the dummy data is only used for bind mounting files/directory.
+the **--restore** instruction will simply remove the dummy data and remove the bind mount(by umounting),  then it'll move and rename the original data back to where it was originally located on the disk.
 
 because of this, do not forget to use **--mmbackup** or **--mtbackup** if you need to.
 
@@ -244,7 +246,7 @@ Zicroram should work on all GNU Linux Distributions out-of-box as long as they s
 
 Zicroram runs as an administrative tool on your system, so administrator/root access will be required.
 
-It's advisable not to run this program under Windows' WSL; last time I checked WSL didn't support real TMPFS Filesystem and instead uses the Hard Drive as TMPFS device instead of the Ram Memory thus making the program developed in here pointless.
+On windows - as of current date - Zicroram is only available on WSL2 Linux Distros; WSL1 does not support TMPFS or RAMFS and instead creates a paging file and use it as RAM Memory on your hard disk instead of using the actual physical RAM thus making the program pointless.
 
 
 ## AUTHOR
