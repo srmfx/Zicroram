@@ -62,7 +62,7 @@ The program also includes a man page, you can read it once the program is instal
     $ man zicroram
     
 ## ABOUT ZICRORAM SHAREWARE VERSION
-The use of the shareware version here available is limited to 15GB of RAM. The user can keep using this program indefinitely, until they reach the specified data size restrictions, which can be simply removed by excluding any data that has been added while by using the --remove command. Full version features no limitations, however full version won't be available to public use for free.
+The use of the shareware version here available is limited to 17GB of RAM. The user can keep using this program indefinitely, until they reach the specified data size restrictions, which can be simply removed by excluding any data that has been added while by using the --remove command. Full version features no limitations, however full version won't be available to public use for free.
 
 The shareware limitation is imposed on zicroram's side only; this means no limitation is ever set on the Linux Operating System nor it's configuration files and none of the TMPFS/RAMFS Kernel Modules settings.
 
