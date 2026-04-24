@@ -79,7 +79,16 @@ The restriction is hard-coded within the program only, for limitting only how mu
 **Workaround for SELinux:** If you really need to work with SELinux filesystem features, you can still use this program and either write/code or use alternative backup tool(s) for your specific data.
 
 ## DOWNLOADING
-At the far right side of the screen - at the top of this page - you'll find a 'RELEASE' section and once you click in it, you'll then be taken to a page describing the version and changes made to the program on that version. At the 'Assets' section of that page, you can download the program under the name " zicroram.x86-64.glibc.tar.gz "; the '.tar.gz' is a tar compressed file and after downloading it, it'll need to be uncompressed using the 'tar' tool:
+You can download the program under the name " zicroram.x86-64.glibc.tar.gz "; the '.tar.gz' is a tar compressed file and after downloading it, it'll need to be uncompressed using the 'tar' tool:
+
+- Locating download file on [GITHUB](https://github.com/srmfx/Zicroram) Page:
+
+        Far-right side of the screen, you can find a section that says 'Releases'.
+
+
+- Locating download file On [GITLAB](https://gitlab.com/zicroram/zicroram) Page:
+
+        On the left side of the screen, you can find a section that says 'Deploy', click it and then go to 'Releases'.
 
 Extracting into current directory:
 
@@ -244,9 +253,12 @@ Zicroram should work on all GNU Linux Distributions out-of-box as long as they s
 
 **2 - TMPFS Enabled kernel.**
 
-Zicroram runs as an administrative tool on your system, so administrator/root access will be required.
+**3 - A Posix Compliant Shell Linux System.**
 
-On windows - as of current date - Zicroram is only available on WSL2 Linux Distros; WSL1 does not support TMPFS or RAMFS and instead creates a paging file and use it as RAM Memory on your hard disk instead of using the actual physical RAM thus making the program pointless.
+Zicroram runs as an administrative tool on your system, so administrator/root access will be required.
+**The shell pointed by the '/usr/bin/sh' symlink/softlink on your linux system must be posix compliant.**
+
+On windows - as of current date - Zicroram is only available on WSL2 Linux Distros; WSL1 does not support TMPFS or RAMFS and instead creates a paging file and uses it as RAM Memory on your hard disk instead of using the actual physical RAM thus making the program pointless.
 
 
 ## AUTHOR
@@ -264,7 +276,7 @@ get in contact with him on the email provided in the binary release of this prog
 
 ## BUGS
 
-If you've found a bug, you're welcome to open an issue and report it in this github.
+If you've found a bug, you're welcome to open an issue and report it on either github or gitlab.
 DO NOT SEND bugs or problems over email, they'll be automatically ignored and treated as junk.
 
 ## TROUBLESHOOTING
