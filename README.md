@@ -263,7 +263,7 @@ On windows - as of current date - Zicroram is only available on WSL2 Linux Distr
 
 ## AUTHOR
 
-The program in here was sole developed by a single dev,
+The program in here was sole developed by one software dev; This program is the the final product of a 'Senior Capstone Project' that was developed for a Bachelor degree during time in University.
 
 get in contact with him on the email provided in the binary release of this program and also the one in here:
 
